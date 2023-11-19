@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Test App</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://estafsar.github.io/estafsar-quote-request-widget/styles.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+
+    <script src="https://estafsar.github.io/estafsar-quote-request-widget/estafsar-quote-request-widget.js"></script>
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="top-bar">
+        <p>
+          <img src="./assets/imgs/phone.png" alt="" />
+          <span>CALL US 16902</span>
+        </p>
+      </div>
+      <hr />
+      <div class="logo-bar">
+        <a href="#home">
+          <img
+            class="logo-image"
+            src="./assets/imgs/royal-insurance-logo-animate.gif"
+          />
+        </a>
+        <div class="widget">
+          <estafsar-quote-request-widget
+            id="estafsarWidget"
+            environment="staging"
+          ></estafsar-quote-request-widget>
+        </div>
+      </div>
+      <hr />
+    </nav>
+    <div class="toolbar">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Our Services</a>
+      <a href="#contact">Get a Quotation</a>
+      <a href="#contact">Financial Data</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#contact">Careers</a>
+      <a href="#contact">Branches</a>
+    </div>
+    <!-- Header -->
+    <header class="banner-content" id="home">
+      <img
+        class="banner-image"
+        src="./assets/imgs/royal-insurance-slideshow-03.jpg"
+      />
+      <div class="overlay">
+        <div class="banner-text">
+          <h1>We are here to help</h1>
+          <p>Explore more about our services for individuals</p>
+          <button>Individual Insurance</button>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="stats-row">
+        <div class="col">
+          <img src="./assets/imgs/wallet.png" alt="" class="wallet" />
+          <h1>Total Premium</h1>
+          <img src="./assets/imgs/stats1.png" alt="" class="stats" />
+        </div>
+        <div class="col">
+          <img src="./assets/imgs/bar-chart.png" alt="" class="wallet" />
+          <h1>Investments</h1>
+          <img src="./assets/imgs/stats2.png" alt="" class="stats" />
+        </div>
+      </div>
+    </section>
+    <section class="explore-more">
+      <div class="get-quote">
+        <h1>Get Quotation</h1>
+        <button class="get-quote-btn">Explore More</button>
+      </div>
+    </section>
+    <div class="before-footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h3>Individual</h3>
+          <ul>
+            <li>Protect your yourself & belongings</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Corporate</h3>
+          <ul>
+            <li>General Accident / Liability</li>
+            <li>Fire / Property Insurance</li>
+            <li>Engineering Insurance</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>Home</li>
+            <li>Report a Claim</li>
+            <li>Report a Complain</li>
+            <li>Marine/Air Cargo proposal</li>
+            <li>Political Violence Application</li>
+            <li>Machinery breakdown proposal</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Head Office</h3>
+          <ul>
+            <li>
+              Address: 48 Mohi Al Din Abou Al Ezz, Ad Doqi, Giza Governorate
+            </li>
+            <li>Telephone: 02 33312999</li>
+            <li>Fax: 02 37609685</li>
+            <li>Hotline: 16902</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="royal-footer">
+      <p>
+        Copywrite Ⓒ Estafsar 2020. All rights reserved | Powered by Estafsar
+      </p>
+    </footer>
+  </body>
+</html>
