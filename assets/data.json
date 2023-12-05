@@ -18,6 +18,29 @@
     "description": "White labeled offer pages",
     "type": "website",
     "estafsar_brokers": false,
+    "policy_category": [
+      {
+        "id": "06e1bc97-b0d8-41a4-8041-8bacffd15760",
+        "name": "Business Medical Insurance",
+        "corporate": true,
+        "retail": false,
+        "auto_rating_enabled": true
+      },
+      {
+        "id": "6c3cd536-a41a-42d8-85d2-1bd2fc0e23c3",
+        "name": "Medical",
+        "corporate": false,
+        "retail": true,
+        "auto_rating_enabled": true
+      },
+      {
+        "id": "83947809-204c-4df7-9384-815a3ec162dd",
+        "name": "Home",
+        "corporate": false,
+        "retail": true,
+        "auto_rating_enabled": true
+      }
+    ],
     "shareable_offer": true,
     "default": false,
     "crm": false,
