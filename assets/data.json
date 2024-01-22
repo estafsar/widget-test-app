@@ -1,49 +1,60 @@
 {
   "company": {
-    "id": "3d8326da-6ae4-4bad-85b4-7624464509e7",
-    "name": "name in english",
-    "phone": null,
-    "website": null,
-    "company_logo": "https://storage.googleapis.com/staging-core/Allianz.png?Expires=1700411724&GoogleAccessId=gs-media%40manifest-access-302013.iam.gserviceaccount.com&Signature=sxYeRxrcv0YzoZGXaX40kXq6hni3PuFsmyLh6xJn59qCu69ji3NxgbywJFGT%2FoZalVP5qF5s7HSCeupBSvLfsSOL%2Fo0rcpBYhAC723Hl%2FdLXJyg9XZPi9G487tv39k28JggPAgYZ%2FuPXOCb1u0ZLJ3mO24vYVdccS3Ok3dkkc42NjGDFYoIzlKbErM6VXDKBRI%2FGErs1hLSO%2FpxhI7fgA8J%2FjG9VuMwxHxhrTRCll1kRsqRirc4V7Ey%2FO2ZxFTX%2FozkvY7xe7sELA7GxN1IpIZ5zRaQpYEuohbQMYds2Fmm%2BrJQJLbcX2hnKaLTQ4Ta8a9uhr6gWAO0W7tYyzHACTA%3D%3D",
-    "trial": false,
-    "type": "provider",
-    "is_active": true
+    "id": "e5a12e53-0a72-4003-8e4b-4db10bb1a988",
+    "name": "Royal Insurance",
+    "phone": "01000345587"
   },
   "channel": {
-    "id": "5a2e73d9-bd70-4087-9bee-96c48b1e3b79",
-    "companies": [],
-    "created_at": "2023-06-14T12:07:11.722586+02:00",
-    "modified_at": "2023-06-18T16:11:31.452156+02:00",
-    "name": "Shareable offers",
-    "description": "White labeled offer pages",
-    "type": "website",
-    "estafsar_brokers": false,
+    "id": "2e49fb53-ac5d-4dc9-b29a-b695d66963a3",
+    "name": "Royal Call Center",
+    "crm": true,
+    "default": false,
     "policy_category": [
       {
         "id": "06e1bc97-b0d8-41a4-8041-8bacffd15760",
         "name": "Business Medical Insurance",
         "corporate": true,
         "retail": false,
-        "auto_rating_enabled": true
+        "auto_rating_enabled": true,
+        "name_ar": "التأمين الطبى للشركات",
+        "name_en": "Business Medical Insurance"
       },
       {
         "id": "6c3cd536-a41a-42d8-85d2-1bd2fc0e23c3",
         "name": "Medical",
         "corporate": false,
         "retail": true,
-        "auto_rating_enabled": true
+        "auto_rating_enabled": true,
+        "name_ar": "التأمين الطبى",
+        "name_en": "Medical"
+      },
+      {
+        "id": "7724b2de-500d-4b03-8e3c-fda4955d5a07",
+        "name": "Car",
+        "corporate": false,
+        "retail": true,
+        "auto_rating_enabled": true,
+        "name_ar": "تأمين السيارات",
+        "name_en": "Car"
       },
       {
         "id": "83947809-204c-4df7-9384-815a3ec162dd",
         "name": "Home",
         "corporate": false,
         "retail": true,
-        "auto_rating_enabled": true
+        "auto_rating_enabled": true,
+        "name_ar": "تأمين المنزل",
+        "name_en": "Home"
+      },
+      {
+        "id": "dcd69bfb-5bfa-4e1e-8408-98f8929adc3b",
+        "name": "Cyber Security",
+        "corporate": true,
+        "retail": false,
+        "auto_rating_enabled": false,
+        "name_ar": "تأمين سيبراني",
+        "name_en": "Cyber Security"
       }
-    ],
-    "shareable_offer": true,
-    "default": false,
-    "crm": false,
-    "external": true
+    ]
   }
 }
